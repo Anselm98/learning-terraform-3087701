@@ -1,4 +1,4 @@
 output "environment_url" {
   description = "URL of the blog"
-  value       = module.qa.environment_url
+  value       = module.dev.environment_url
 }
